@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r dotenv/config index.js"
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.0.1"
+  },
+  "dependencies": {
+    "pg": "^8.7.3"
   }
 }
